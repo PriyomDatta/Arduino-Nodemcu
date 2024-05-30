@@ -1,12 +1,13 @@
+#define onboardLED 2
 void setup() {
   // put your setup code here, to run once:
-pinMode(13,OUTPUT);
+pinMode(onboardLED,OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-digitalWrite(13,HIGH);
+digitalWrite(onboardLED,HIGH);
 delay(1000);
-digitalWrite(13,LOW);
+digitalWrite(onboardLED,LOW);
 delay(1000);
 }
