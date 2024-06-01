@@ -1,2 +1,6 @@
 For wifi use library #include<ESP8266WiFi.h>
 Command to connect to WiFi Network Wifi.begin("WiFiName","WiFiPassword");
+WiFi.status()  to check if it is connected to network or not
+Values:- 1)WL_CONNECTED
+	 2)WL_IDLE_STATUS
+	 3)WL_CONNECTE_FAILURE
