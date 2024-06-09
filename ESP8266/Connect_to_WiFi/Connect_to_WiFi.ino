@@ -8,8 +8,7 @@ Note:- Select generic ESP8266 Module
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  WiFi.mode(WIFI_STA);
-  WiFi.begin("Priyom's phone","Priyom123");
+  WiFi.begin("Priyom's WiFi","Priyom123");
   while(WiFi.status()!=WL_CONNECTED)
   {
     Serial.print("..");

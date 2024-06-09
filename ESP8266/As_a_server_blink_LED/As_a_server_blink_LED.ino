@@ -11,7 +11,7 @@ WiFiServer server(80);
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(9600);                         /*Start serial communication*/
   WiFi.mode(WIFI_STA);
   WiFi.begin("Priyom's phone","Priyom123");
   while(WiFi.status()!=WL_CONNECTED)
