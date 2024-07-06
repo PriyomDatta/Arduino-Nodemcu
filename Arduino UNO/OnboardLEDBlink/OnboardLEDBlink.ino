@@ -8,7 +8,7 @@ pinMode(onBoardLED,OUTPUT);
 void loop() {
   // put your main code here, to run repeatedly:
 digitalWrite(onBoardLED,HIGH);
-delay(1000);
+delay(2000);
 digitalWrite(onBoardLED,LOW);
-delay(1000);
+delay(2000);
 }
